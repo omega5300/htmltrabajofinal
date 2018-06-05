@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <style>
+        table, th, td
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contáctanos</h1>
+    </header>
+
+    <button class="accordion">datos de la empresa</button>
+    <div class="panel">
+      <input type="button" onclick="CreateTableFromJSON()" value="mostrar datos de la empresa" />
+      <div id="showData"></div>
+    </div>
+
+    <button class="accordion">integrante</button>
+    <div class="panel">
+      <div class="content-all">
+        <div class="content-img">
+            <img src="img/IMG_4043.JPG" alt="developer"/>
+
+            <div class="content-txt">
+                <h2>julian david cordoba torres</h2>
+                <h3>"julio"</h3>
+                <p>desarrollador frontend de diseños valcarcel</p>
+            </div>
+
+            <div class="content-1"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/acordeon.js"></script>
+    <script src="js/contacto.js"></script>
+
+  </body>
+</html>

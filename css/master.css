@@ -1,0 +1,14 @@
+body{
+  background: black;
+}
+
+h1{
+  color: yellow;
+  text-shadow: 2px 2px 2px violet;
+  text-align:center;
+}
+
+img{
+  display: block;
+	margin: auto;
+}

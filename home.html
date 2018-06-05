@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="empresa de diseño grafico">
+    <meta name="keywords" content="diseño,medios impresos,marca">
+    <meta name="author" content="julian cordoba">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home diseños valcarcel</title>
+    <link rel="icon" href="dvfavicon.ico">
+    <link rel="stylesheet" href="css/frames.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/modal.css">
+  </head>
+  <body>
+    <section>
+      <img src="img/banner.png" alt="banner valcarcel" onclick="javascript:salir();" style="width: 100%; height: 25%;">
+    </section>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'inicio')">Inicio</button>
+      <button class="tablinks" onclick="openCity(event, 'servicios')">Servicios</button>
+      <button class="tablinks" onclick="openCity(event, 'trabajos_realizados')">Trabajos Realizados</button>
+      <button class="tablinks" onclick="openCity(event, 'contactanos')">Contáctanos</button>
+    </div>
+
+    <div id="inicio" class="tabcontent">
+      <iframe src="inicio.html" ></iframe>
+    </div>
+
+    <div id="servicios" class="tabcontent">
+      <iframe src="servicios.html"></iframe>
+    </div>
+
+    <div id="trabajos_realizados" class="tabcontent">
+      <iframe src="trabajos.html" ></iframe>
+    </div>
+
+    <div id="contactanos" class="tabcontent">
+      <iframe src="contactos.html"></iframe>
+    </div>
+
+    <footer style="background-color:#000; color:#fff;">
+      <button id="myBtn" style="background: rgba(0,0,0,0.2); color: whitesmoke;">cookies</button>
+
+      <div id="myModal1" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>cookies</h2>
+          </div>
+          <div class="modal-body">
+              <iframe src="cookies.html" style="height:12%; width:100%;"></iframe>
+          </div>
+          <div class="modal-footer">
+            <h3>leer con cuidado</h3>
+          </div>
+        </div>
+      </div>
+
+      <button id="myBtn1" style="background: rgba(0,0,0,0.2); color: whitesmoke;">datos_personales</button>
+
+      <div id="myModal2" class="modal1">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>politica de datos personales</h2>
+          </div>
+          <div class="modal-body">
+              <iframe src="datos_personales.html" style="height:12%; width:100%;"></iframe>
+          </div>
+          <div class="modal-footer">
+            <h3>leer con cuidado</h3>
+          </div>
+        </div>
+      </div>
+      julian david cordoba torres "julio"
+    </footer>
+
+    <script src="js/tabs.js"></script>
+    <script src="js/enlaces.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/modal2.js"></script>
+
+  </body>
+</html>
