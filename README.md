@@ -5,4 +5,4 @@ trabajo final de html5
 
 ![atom ide](atom.png "atom ide")
 
-![atom ide](so_linux_mint.png "atom ide")
+![linux mint](so_linux_mint.png "linux mint")
